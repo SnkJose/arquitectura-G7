@@ -1,0 +1,111 @@
+body{
+    margin:0;
+    padding:0;
+}
+header{
+    text-align: center;
+    font-family:sans-serif;
+    background-color: #75757533;
+    color: blueviolet;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px 0;
+    font-weight: bold;
+}
+nav a{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 18px;
+    font-weight: normal;
+}
+div {
+    display: block;
+}
+.fondo{
+    background: url("media/Boletera.png");
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.pago{
+    width: 710px;
+    height:810px;
+    background: #333333cc;
+    color: white;
+    top:60%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border-radius: 5%;
+}
+.pago h1{
+    text-align: center;
+}
+.pago label{
+    margin:0;
+    padding:0;
+    font-weight: bold;
+    display:block;
+}
+
+.pago input[type="text"],input[type="email"],input[type="tel"]{
+    width: 100%;
+    margin-bottom: 20px;
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline:none;
+    height:40px;
+    color: #fff;
+    font-size: 16px;
+}
+select{
+    max-width: 150px;
+    width: 100%;
+    margin-bottom: 10px;
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline:none;
+    height:40px;
+    color: #fff;
+    font-size: 16px;
+}
+select option{
+	background: #333333cc;
+    color:white;
+}
+
+.pago input[type="number"]{
+    max-width: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline:none;
+    height:40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.pago button[type="submit"]{
+    width: 100%;
+    margin-bottom: 20px;
+    border:none;
+    outline:none;
+    height:40px;
+    background: #b80f22;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #75757533;
+    color: blueviolet;
+    text-align: center;
+    padding: 10px 0;
+}
